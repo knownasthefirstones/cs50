@@ -17,7 +17,7 @@ public class Cash {
         do {
             System.out.print("How much $ change is owed?: ");
             cash = scanner.nextFloat();
-            if(cash == 0) {
+            if (cash == 0) {
                 System.out.println("nothing to exchange");
             } else if (cash < 0){
                 System.out.println("please repeat");
@@ -46,16 +46,16 @@ public class Cash {
 
         // or
         while (cents > 0) {
-            if((cents - 25) >= 0) {
+            if ((cents - 25) >= 0) {
                 cents = cents - 25;
                 coins++;
-            } else if((cents - 10) >= 0) {
+            } else if ((cents - 10) >= 0) {
                 cents -= 10;
                 coins++;
-            } else if((cents - 5) >= 0) {
+            } else if ((cents - 5) >= 0) {
                 cents -= 5;
                 coins++;
-            } else if((cents - 1) >= 0) {
+            } else if ((cents - 1) >= 0) {
                 cents -= 1;
                 coins++;
             }
