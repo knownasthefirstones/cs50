@@ -1,4 +1,4 @@
-/**
+/*
  * javac -d bin src/ps1/hello/Hello.java
  * java -cp ./bin ps1/hello/Hello or java -classpath ./bin ps1/hello/Hello
  */

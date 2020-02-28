@@ -1,2 +1,2 @@
 # cs50
-cs50 educations
+cs50 education

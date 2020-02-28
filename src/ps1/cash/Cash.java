@@ -1,4 +1,4 @@
-/**
+/*
  * minimum number of coins for exchange dollars
  */
 
@@ -26,9 +26,10 @@ public class Cash {
             }
         } while (cash < 0);
 
-        // convert float to int
-        // cash = cash * 10000/100;
-        // System.out.println(cash + " cents");
+        /*convert float to int
+        cash = cash * 10000/100;
+        System.out.println(cash + " cents");*/
+
         cents = (int)(cash * 10000 / 100);
         System.out.println("Total " + cents + " cents");
 
