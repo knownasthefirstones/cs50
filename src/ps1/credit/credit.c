@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-/**
+/*
  * Программа, которая определяет, является ли предоставленный номер кредитной карты действительным в соответствии с алгоритмом Луна
  *
  * Проверка American Express uses 15-digit numbers, MasterCard uses 16-digit numbers, and Visa uses 13- and 16-digit numbers
